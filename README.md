@@ -1,9 +1,9 @@
 # Minds and Machines Appathon 2017
 
 ## Overview
-The hackathon challenge and all logistics can be found here: https://mmsf17.devpost.com/
+The hackathon challenge and all logistics can be found here on [devpost](https://mmsf17.devpost.com/).
 
-Completed projects are due at **4pm Wednesday October 25th** and must be submitted here: https://mmsf17.devpost.com/submissions
+Completed projects are due at **4pm Wednesday October 25th** and must be submitted [here on devpost](https://mmsf17.devpost.com/submissions).
 
 This requires you create a devpost account in order to be eligible for a prize. Please make sure you have consulted the requirements that are specific to each challenge / dataset.
 
@@ -30,8 +30,8 @@ Electric vehicles, distributed renewable energy, and electric building heating c
 
 #### Two datasets are provided for this:
 
-- **Grid Timeseries Dataset** for load forecasting & temperature correction on distribution circuits
-- **Heatpump Timeseries Dataset** for electric heating & conversion to heat pumps
+- The [Grid Timeseries Dataset](https://github.com/PredixDev/minds-machines-sf/tree/master/Electrification%20Challenge/Grid%20Timeseries%20Dataset) for load forecasting & temperature correction on distribution circuits
+- The [Heatpump Timeseries Dataset](https://github.com/PredixDev/minds-machines-sf/tree/master/Electrification%20Challenge/Heatpump%20Timeseries%20Dataset) for electric heating & conversion to heat pumps
 
 You can find detailed information about each dataset inside its dedicated folder under "electfication challenge"
 
@@ -53,7 +53,7 @@ All CityIQ API's are available for your application. https://developer.currentby
 
 Your mission is to address one of the problems related to sustainability. To boost your project prototype you can add connected hardware with Predix Edge to your solution. 
 
-You can find detailed information in the "Intel Dev Kit" folder in this repo.
+You can find detailed information in the [Intel Dev Kit](https://github.com/PredixDev/minds-machines-sf/tree/master/Intel%20Dev%20Kit) folder in this repo.
 
 ### Seed Apps
 Contains a starter application preconfigured to access the challenge data.
