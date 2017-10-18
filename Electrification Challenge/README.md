@@ -1,4 +1,4 @@
-# Electrification Challenges
+# Electrification Data
 
 You will find detailed information about each electrification challenge inside its folder.
 
