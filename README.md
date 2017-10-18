@@ -28,8 +28,8 @@ Example solutions include renewable energy generation siting, electric vehicle c
 
 Electric vehicles, distributed renewable energy, and electric building heating can drive decarbonization and economic value.  The grid needs to keep up!  Innovate solutions for electrification, and evaluate decarbonization impact. This challenge deals with: Renewable energy resource siting; electric heating & conversion to heat pumps analysis; EV charger siting; renewable energy integration.
 
-#### Two datasets are provided for this:
-
+#### Two Datasets
+There are two real datasets in separate folders for your use.
 - The [Grid Timeseries Dataset](https://github.com/PredixDev/minds-machines-sf/tree/master/Electrification%20Challenge/Grid%20Timeseries%20Dataset) for load forecasting & temperature correction on distribution circuits
 - The [Heatpump Timeseries Dataset](https://github.com/PredixDev/minds-machines-sf/tree/master/Electrification%20Challenge/Heatpump%20Timeseries%20Dataset) for electric heating & conversion to heat pumps
 
@@ -45,7 +45,7 @@ You can find detailed information about each dataset inside its dedicated folder
 - Environmental Planning
 - Traffic Planning
 
-All CityIQ API's are available for your application. https://developer.currentbyge.com/cityiq
+The [CityIQ APIs](https://developer.currentbyge.com/cityiq) are available for your application. 
 
 ### Intel Dev Kit
 
