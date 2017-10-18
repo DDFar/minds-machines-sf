@@ -30,8 +30,8 @@ Electric vehicles, distributed renewable energy, and electric building heating c
 
 #### Two datasets are provided for this:
 
-- **Grid Timeseries Dataset** Load forecasting & temperature correction on distribution circuits
-- **Heatpump Timeseries Dataset** Electric heating & conversion to heat pumps
+- **Grid Timeseries Dataset** for load forecasting & temperature correction on distribution circuits
+- **Heatpump Timeseries Dataset** for electric heating & conversion to heat pumps
 
 You can find detailed information about each dataset inside its dedicated folder under "electfication challenge"
 
