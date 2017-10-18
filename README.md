@@ -1,7 +1,7 @@
 # Minds and Machines Appathon 2017
 
 ## Overview
-The hackathon challenge and all logistics can be found here on [devpost](https://mmsf17.devpost.com/).
+The hackathon challenge and all logistics can be found [here on devpost](https://mmsf17.devpost.com/).
 
 Completed projects are due at **4pm Wednesday October 25th** and must be submitted [here on devpost](https://mmsf17.devpost.com/submissions).
 
