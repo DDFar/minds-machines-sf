@@ -28,8 +28,7 @@ Example solutions include renewable energy generation siting, electric vehicle c
 
 Electric vehicles, distributed renewable energy, and electric building heating can drive decarbonization and economic value.  The grid needs to keep up!  Innovate solutions for electrification, and evaluate decarbonization impact. This challenge deals with: Renewable energy resource siting; electric heating & conversion to heat pumps analysis; EV charger siting; renewable energy integration.
 
-### 2 datasets are provided for this:
-
+#### Two datasets are provided for this:
 
 - **Grid Timeseries Dataset** Load forecasting & temperature correction on distribution circuits
 - **Heatpump Timeseries Dataset** Electric heating & conversion to heat pumps
