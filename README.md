@@ -16,6 +16,14 @@ Digital tools applied to existing power plants are already driving efficiencies 
 
 Example solutions include renewable energy generation siting, electric vehicle charger siting, renewable energy integration, asset performance management and field services management, electricity distribution optimization, measuring air quality to provide transparency to drive emissions reductions, maximizing efficiency and output of energy generation systems to do more with less fuel. 
 
+
+
+
+## Repository Overview
+
+### CityIQ
+
+### Electrification Challenge
 *Data Presented by EURELECTRIC, EHPA, ESB and Fraunhofer*
 
 Electric vehicles, distributed renewable energy, and electric building heating can drive decarbonization and economic value.  The grid needs to keep up!  Innovate solutions for electrification, and evaluate decarbonization impact. This challenge deals with: Renewable energy resource siting; electric heating & conversion to heat pumps analysis; EV charger siting; renewable energy integration.
@@ -40,10 +48,14 @@ You can find detailed information about each dataset inside its dedicated folder
 
 All CityIQ API's are available for your application. https://developer.currentbyge.com/cityiq
 
-## Developer Kit
+### Intel Dev Kit
 
 *Presented by Intel*
 
 Your mission is to address one of the problems related to sustainability. To boost your project prototype you can add connected hardware with Predix Edge to your solution. 
 
 You can find detailed information in the "Intel Dev Kit" folder in this repo.
+
+### Seed Apps
+Contains a starter application preconfigured to access the challenge data.
+
