@@ -32,11 +32,11 @@ You can find detailed information about each dataset inside its dedicated folder
 
 You can find detailed information about each dataset inside its dedicated folder under "CityIQ"
 
-Parking Planning
-Pedestrian Planning
-Situational Awareness
-Environmental Planning
-Traffic Planning
+- Parking Planning
+- Pedestrian Planning
+- Situational Awareness
+- Environmental Planning
+- Traffic Planning
 
 All CityIQ API's are available for your application. https://developer.currentbyge.com/cityiq
 
