@@ -3,8 +3,10 @@
 ## App setup
 
 Change directory into this seed app, then install dependencies.
-```
-yarn install && bower install
+```bash
+> git clone https://github.com/PredixDev/minds-machines-sf.git
+> cd minds-machines-sf/Seed\ Apps/timeseries_seed_app
+> yarn install && bower install
 ```
 
 To customize the application name do a global search and
