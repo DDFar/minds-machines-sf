@@ -1,6 +1,6 @@
 {
     "development": {
-        "clientId": "timeseries_client_readonly",
+        "clientId": "app_client_id",
         "clientSecret": "secret",
         "serverPort": 5000,
         "vcap": {
