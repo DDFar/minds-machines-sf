@@ -1,0 +1,10 @@
+{
+  "name": "MMSanFrancisco Space Setup",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "local-setup": "https://github.build.ge.com/adoption/local-setup#develop",
+    "predix-scripts": "https://github.build.ge.com/adoption/predix-scripts#develop"
+  },
+  "author": "212574163"
+}
