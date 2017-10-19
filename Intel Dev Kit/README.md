@@ -51,8 +51,12 @@ The dataflow is as follows:
 1.	Data generated from sensors is collected by an instance of [Predix Machine](https://docs.predix.io/en/content/service/edge_software_and_services/machine/predix-machine-overview) deployed on the board. Sensor data is interpreted by the Predix Machine using an adaptor leveraging Intel sensor libraries.
 2.	The Predix Machine buffers this data locally (store and forward).
 3.	A [predix-machine-template-processor](https://github.com/PredixDev/predix-machine-template-processor) logs the data going by. 
-4.	The Predix Machine sends the data to a Predix Timeseries instance in your cloud space
+4.	The Predix Machine sends the data to a shared Predix Timeseries instance the cloud
 5.	Access the data from the Predix Timeseries instance!
 You can find more information about getting started with [Predix Machine](https://www.predix.io/resources/tutorials/journey.html#Edge) here.
+
+##How to customize the Predix Machine to access your own Time Series instance
+1. Using a browser, visit the Documentation tab of the Predix Developer Kit web site.
+2. Click on the link for Customize Predix Machine and follow the tutorial.  Here is the direct link.  https://www.predix.io/resources/tutorials/journey.html?environment=workshop#2365
 
 
