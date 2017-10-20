@@ -2,6 +2,10 @@
 
 ## Getting Started
 
+**Before You Begin**:
+- Note only one member of your team will need to walk through this guide to setup your team's space
+- Before you begin with this script, make sure to be logged into Predix, in the ‘predixbuilders2’ org and your team space. You can download the Predix CLI by follow this [link](https://github.com/PredixDev/predix-cli)
+
 In order to help you to quickly start the challenge, we've created a script to deploy your services for you.
 First let's create a directory for your project. Clone or download and extract this project in that directory.
 
