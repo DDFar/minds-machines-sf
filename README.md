@@ -25,12 +25,14 @@ We provided an example Time Series seed app to show how you can request and plot
 
 ## What's in this Repository?
 
-This repository contains a number of resources that may help you get started. You are **not** required to use any of these, but may find them to be useful. 
+This repository contains a number of resources that may help you get started, including sample data, APIs linking to more sample data, and seed apps. You are **not** required to use any of these, but may find them to be useful.
 
-### [Electrification Challenge](https://github.com/PredixDev/minds-machines-sf/tree/master/Electrification%20Challenge)
+### [Electrification Challenge Sample Data](https://github.com/PredixDev/minds-machines-sf/tree/master/Electrification%20Challenge)
 *Data Presented by EURELECTRIC, EHPA, ESB and Fraunhofer*
 
-Electric vehicles, distributed renewable energy, and electric building heating can drive decarbonization and economic value.  The grid needs to keep up!  Innovate solutions for electrification, and evaluate decarbonization impact. This challenge deals with: Renewable energy resource siting; electric heating & conversion to heat pumps analysis; EV charger siting; renewable energy integration.
+This resource contains sample datasets for you to use.
+
+Electric vehicles, distributed renewable energy, and electric building heating can drive decarbonization and economic value.  The grid needs to keep up!  Innovate solutions for electrification, and evaluate decarbonization impact. This challenge deals with: Renewable energy resource siting; electric heating & conversion to heat pumps analysis; EV charger siting; renewable energy integration. 
 
 #### Two Datasets
 There are two real datasets in separate folders for your use.
@@ -41,6 +43,8 @@ You can find detailed information about each dataset inside its dedicated folder
 
 ### [Current by GE, CityIQ APIs](https://github.com/PredixDev/minds-machines-sf/tree/master/CityIQ)
 
+This folder contains information and postman collections to access the [CityIQ APIs](https://developer.currentbyge.com/cityiq).
+
 You can find detailed information about each dataset inside its dedicated folder under "CityIQ"
 
 - Parking Planning
@@ -49,7 +53,7 @@ You can find detailed information about each dataset inside its dedicated folder
 - Environmental Planning
 - Traffic Planning
 
-The [CityIQ APIs](https://developer.currentbyge.com/cityiq) are available for your application.
+
 
 ### [Intel Dev Kit](https://github.com/PredixDev/minds-machines-sf/tree/master/Intel%20Dev%20Kit)
 
@@ -60,6 +64,6 @@ Your mission is to address one of the problems related to sustainability. To boo
 You can find detailed information in the [Intel Dev Kit](https://github.com/PredixDev/minds-machines-sf/tree/master/Intel%20Dev%20Kit) folder in this repo.
 
 ### [Seed Apps](https://github.com/PredixDev/minds-machines-sf/tree/master/Seed%20Apps)
-Contains a starter application preconfigured to access the challenge data.
+This folder contains a starter application preconfigured to access the challenge data.
 
 
