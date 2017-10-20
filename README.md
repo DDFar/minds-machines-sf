@@ -10,13 +10,11 @@ This requires you create a devpost account in order to be eligible for a prize. 
 Your team can also take up a **Developer Kit** complementary challenge using a Predix Developer Kit to improve your solution with a connectivity feature.
 
 ## Challenge
-Decarbonization, Decentralization, and Digitization are driving transformation across the global energy sector.  Today, more renewable energy is installed on a yearly basis than all other forms of energy generation combined.  At the same time, distributed energy resources like rooftop solar are driving a backwards flow of electricity in distribution systems. 
+Decarbonization, Decentralization, and Digitization are driving transformation across the global energy sector.  Today, more renewable energy is installed on a yearly basis than all other forms of energy generation combined.  At the same time, distributed energy resources like rooftop solar are driving a backwards flow of electricity in distribution systems.
 
 Digital tools applied to existing power plants are already driving efficiencies that reduce fuel consumption and greenhouse gas emissions, while increasing output.  **Develop new solutions on GE’s Predix platform to drive the future of energy, reduce emissions, and improve air quality for all.**
 
-Example solutions include renewable energy generation siting, electric vehicle charger siting, renewable energy integration, asset performance management and field services management, electricity distribution optimization, measuring air quality to provide transparency to drive emissions reductions, maximizing efficiency and output of energy generation systems to do more with less fuel. 
-
-
+Example solutions include renewable energy generation siting, electric vehicle charger siting, renewable energy integration, asset performance management and field services management, electricity distribution optimization, measuring air quality to provide transparency to drive emissions reductions, maximizing efficiency and output of energy generation systems to do more with less fuel.
 
 
 ## Repository Overview
@@ -45,16 +43,22 @@ You can find detailed information about each dataset inside its dedicated folder
 - Environmental Planning
 - Traffic Planning
 
-The [CityIQ APIs](https://developer.currentbyge.com/cityiq) are available for your application. 
+The [CityIQ APIs](https://developer.currentbyge.com/cityiq) are available for your application.
 
 ### Intel Dev Kit
 
 *Presented by Intel*
 
-Your mission is to address one of the problems related to sustainability. To boost your project prototype you can add connected hardware with Predix Edge to your solution. 
+Your mission is to address one of the problems related to sustainability. To boost your project prototype you can add connected hardware with Predix Edge to your solution.
 
 You can find detailed information in the [Intel Dev Kit](https://github.com/PredixDev/minds-machines-sf/tree/master/Intel%20Dev%20Kit) folder in this repo.
 
 ### Seed Apps
 Contains a starter application preconfigured to access the challenge data.
 
+## How to get started?
+Before you get started on the challenges, you will need to have a working Predix space on the cloud to deploy your services and apps.
+
+The [How To Setup Your Predix Space](https://github.com/PredixDev/minds-machines-sf/blob/master/How%20To%20Setup%20Your%20Predix%20Space.md) guide will quickly walk you through the steps for space setup.
+
+Afterwards, you can see how to request and plot time series data from the heatpump timeseries instance by following the [Timeseries Seed App](https://github.com/PredixDev/minds-machines-sf/tree/master/Seed%20Apps/timeseries_seed_app) guide to run a working application.

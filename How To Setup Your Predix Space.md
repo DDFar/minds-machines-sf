@@ -1,4 +1,3 @@
-# Minds and Machines San Francisco Hackathon 2017
 # How To Setup Your Predix Space
 
 With your Predix account, you have access to your team space in one of these orgs:
@@ -8,7 +7,10 @@ With your Predix account, you have access to your team space in one of these org
 
 Your team space name is: team# (# is your team number).
 
-In order to help you to quickly start the challenge, we've created a script service to deploy your services for you
+In order to help you to quickly start the challenge, we've created a script to deploy your services for you.
+
+## Getting Started
+
 
 ## Apps
 
