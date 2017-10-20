@@ -10,9 +10,9 @@ This requires you create a devpost account in order to be eligible for a prize. 
 Your team can also take up a **Developer Kit** complementary challenge using a Predix Developer Kit to improve your solution with a connectivity feature.
 
 ## Challenge
-Decarbonization, Decentralization, and Digitization are driving transformation across the global energy sector.  Today, more renewable energy is installed on a yearly basis than all other forms of energy generation combined.  At the same time, distributed energy resources like rooftop solar are driving a backwards flow of electricity in distribution systems.
+Decarbonization, Decentralization, and Digitization are driving transformation across the global energy sector.  Today, more renewable energy sources are installed on a yearly basis than all other forms of energy generation combined.  At the same time, distributed energy resources like rooftop solar are driving a backwards flow of electricity in distribution systems.
 
-Digital tools applied to existing power plants are already driving efficiencies that reduce fuel consumption and greenhouse gas emissions, while increasing output.  **Develop new solutions on GE’s Predix platform to drive the future of energy, reduce emissions, and improve air quality for all.**
+Digital tools applied to existing power plants are already driving efficiencies that reduce fuel consumption and greenhouse gas emissions, while increasing output.  Your challenge: **Develop new solutions on GE’s Predix platform to drive the future of energy, reduce emissions, and improve air quality for all.**
 
 Example solutions include renewable energy generation siting, electric vehicle charger siting, renewable energy integration, asset performance management and field services management, electricity distribution optimization, measuring air quality to provide transparency to drive emissions reductions, maximizing efficiency and output of energy generation systems to do more with less fuel.
 
