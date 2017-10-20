@@ -18,7 +18,7 @@ SET CF_URL=""
   IF /I [%1] == [--cf-password] SET CF_PASSWORD=%2& SHIFT & SHIFT
   IF /I [%1] == [--cf-org] SET CF_ORG=%2& SHIFT & SHIFT
   IF /I [%1] == [--cf-space] SET CF_SPACE=%2& SHIFT & SHIFT
-  SET QUICKSTART_ARGS=!QUICKSTART_ARGS! %1 -i "MMSanFranciscoTeam"
+  SET QUICKSTART_ARGS=!QUICKSTART_ARGS! %1
   rem echo "#### QUICKSTART_ARGS: !QUICKSTART_ARGS!"
   SHIFT & IF NOT [%1]==[] GOTO :GETOPTS
 GOTO :AFTERGETOPTS
@@ -40,8 +40,8 @@ SET APP_NAME=MMSanFrancisco Space Setup
 SET TOOLS=Cloud Foundry CLI, Git, Node.js, Maven, Predix CLI
 SET TOOLS_SWITCHES=/cf /git /nodejs /maven /predixcli
 
-SET SHELL_SCRIPT_URL=raw.githubusercontent.com/PredixDev/!REPO_NAME!/!BRANCH!/scripts/!SHELL_SCRIPT_NAME!
-SET VERSION_JSON_URL=raw.githubusercontent.com/PredixDev/!REPO_NAME!/!BRANCH!/version.json
+SET SHELL_SCRIPT_URL=https://raw.githubusercontent.com/PredixDev/!REPO_NAME!/!BRANCH!/scripts/!SHELL_SCRIPT_NAME!
+SET VERSION_JSON_URL=https://raw.githubusercontent.com/PredixDev/!REPO_NAME!/!BRANCH!/version.json
 
 GOTO START
 
@@ -132,8 +132,8 @@ GOTO :eof
   powershell -Command "(new-object net.webclient).DownloadFile('!VERSION_JSON_URL!','version.json')"
   CALL izon.bat READ_DEPENDENCY local-setup LOCAL_SETUP_URL LOCAL_SETUP_BRANCH %cd%
   ECHO "LOCAL_SETUP_BRANCH=!LOCAL_SETUP_BRANCH!"
-  SET SETUP_WINDOWS=https://raw.githubusercontent.com/adoption/local-setup/!LOCAL_SETUP_BRANCH!/setup-windows.bat
-  rem SET SETUP_WINDOWS=https://raw.githubusercontent.com/PredixDev/local-setup/!LOCAL_SETUP_BRANCH!/setup-windows.bat
+  rem SET SETUP_WINDOWS=https://raw.githubusercontent.com/adoption/local-setup/!LOCAL_SETUP_BRANCH!/setup-windows.bat
+  SET SETUP_WINDOWS=https://raw.githubusercontent.com/PredixDev/local-setup/!LOCAL_SETUP_BRANCH!/setup-windows.bat
 
   ECHO !SETUP_WINDOWS!
   powershell -Command "(new-object net.webclient).DownloadFile('!SETUP_WINDOWS!','setup-windows.bat')"
@@ -165,8 +165,8 @@ if !CF_URL!=="" (
   cf login -a !CF_URL! -u !CF_USER! -p !CF_PASSWORD! -o !CF_ORG! -s !CF_SPACE!
 )
 
-powershell -Command "(new-object net.webclient).DownloadFile('!SHELL_SCRIPT_URL!','!CURRENTDIR!\!SHELL_SCRIPT_NAME!')"
-ECHO Running the !CURRENTDIR!\%SHELL_SCRIPT_NAME% script using Git-Bash
+powershell -Command "(new-object net.webclient).DownloadFile('!SHELL_SCRIPT_URL!','!CURRENTDIR!\scripts\%SHELL_SCRIPT_NAME%')"
+ECHO Running the !CURRENTDIR!\scripts\%SHELL_SCRIPT_NAME% script using Git-Bash
 cd !CURRENTDIR!
 ECHO.
-"%PROGRAMFILES%\Git\bin\bash" --login -i -- "!CURRENTDIR!\%SHELL_SCRIPT_NAME%" -b !BRANCH! --skip-setup !QUICKSTART_ARGS!
+"%PROGRAMFILES%\Git\bin\bash" --login -i -- !CURRENTDIR!\scripts\%SHELL_SCRIPT_NAME% -b !BRANCH! --skip-setup !QUICKSTART_ARGS!
