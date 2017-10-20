@@ -23,6 +23,18 @@ Let's start by verifying that you have the required tools installed.
 Should we install the required tools if not already installed? (Cloud Foundry CLI, Git, Node.js, Maven, Predix CLI) > yes
 ```
 
+Once the script finishes running, a successful completion message will appear. Information on the services (Predix Service Configuration) is printed to the console and also saved to **predix-scripts/log/quickstart-summary.txt**.
+
+To look into the services created in your space now, simply type 'cf services'
+
+```
+MMSanFrancisco_timeseries_heatPump   user-provided
+MMSanFrancisco_timeseries_loadData   user-provided
+MMSanFrancisco_uaa_admin             user-provided
+mmsanfranciscoteam-time-series       predix-timeseries   Free   mmsanfranciscoteam-hello-world   create succeeded
+mmsanfranciscoteam-uaa               predix-uaa          Free   mmsanfranciscoteam-hello-world   create succeeded
+```
+
 Note: Networking errors may occur if your machine is running behind a proxy. We suggest disabling active proxy settings to resolve such issues
 
 ## SERVICES
@@ -45,6 +57,10 @@ We already created 1 UAA client and 1 user:
 * **Client Secret** : secret
 * **User ID**:  app_user_1#
 * **User Secret** : app_user_1#
+
+### mmsanfrancisco-time-series
+
+This Time Series instance in your space is a service to quickly and efficiently manage, distribute, ingest, store, and analyze time series data. You can have a look at Time Series information [here](https://docs.predix.io/en-US/content/service/data_management/time_series/).
 
 ### MMSanFrancisco_timeseries_heatPump
 
