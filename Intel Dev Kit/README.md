@@ -55,7 +55,7 @@ The dataflow is as follows:
 5.	Access the data from the Predix Timeseries instance!
 You can find more information about getting started with [Predix Machine](https://www.predix.io/resources/tutorials/journey.html#Edge) here.
 
-##How to customize the Predix Machine to access your own Time Series instance
+## How to customize the Predix Machine to access your own Time Series instance
 1. Using a browser, visit the Documentation tab of the Predix Developer Kit web site.
 2. Click on the link for Customize Predix Machine and follow the tutorial.  Here is the direct link.  https://www.predix.io/resources/tutorials/journey.html?environment=workshop#2365
 
