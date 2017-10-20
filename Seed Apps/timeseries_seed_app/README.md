@@ -20,7 +20,7 @@ If you don't have them already, you'll need node, bower and gulp to be installed
 
 ## App setup
 
-After navigating to the timeseries_seed_app director, install the dependencies.
+After navigating to the timeseries_seed_app directory, install the dependencies.
 
 ```
 bash
@@ -38,9 +38,9 @@ The default gulp task will start a local web server.  Just run this command:
 gulp
 ```
 Browse to http://localhost:5000.
-The app is already configured data to retrieve data from MMSanFrancisco time series instances.
+The app is already configured data to retrieve data from the shared time series instances.
 
-If you want to link your local seed app to your own timeseries and uaa instances, copy over your **UAA url** and **Timeseries ZoneId** (both unique to your instance) from *predix-scripts/log/quickstart-summary.txt*...
+If you want to link your local seed app to your team's Timeseries and UAA instances, copy over your **UAA URL** and **Timeseries ZoneId** (both unique to your instance) from *predix-scripts/log/quickstart-summary.txt*...
 
 ```
 Predix Services Configuration
@@ -51,7 +51,7 @@ UAA URL: https://<your-uaa-identity>.predix-uaa.run.aws-usw02-pr.ice.predix.io
 TimeSeries ZoneID: <your-unique-zone-id>
 ...
 ```
-... then paste them into node server's local-config.js (*timeseries_seed_app/server/local-config.js*)
+... then paste them into your node app's local-config.js (*timeseries_seed_app/server/local-config.js*)
 
 ```
 "predix-timeseries": [
@@ -89,7 +89,7 @@ The simplest way to push the Timeseries seed app to a cloud environment is by mo
 1. Update manifest.yml
 
     Change the name field in your manifest.yml.
-    The service names below is configured to match those deployed by the quickstart script.
+    The service names below are configured to match those deployed by the quickstart script. They will be bound to your app after deploying.
     ```
     ---
     applications:
