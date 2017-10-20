@@ -19,8 +19,6 @@ Example solutions include renewable energy generation siting, electric vehicle c
 
 ## Repository Overview
 
-### CityIQ
-
 ### Electrification Challenge
 *Data Presented by EURELECTRIC, EHPA, ESB and Fraunhofer*
 
@@ -56,9 +54,9 @@ You can find detailed information in the [Intel Dev Kit](https://github.com/Pred
 ### Seed Apps
 Contains a starter application preconfigured to access the challenge data.
 
-## How to get started?
-Before you get started on the challenges, you will need to have a working Predix space on the cloud to deploy your services and apps.
+## How do I get started?
+Before starting the challenges, you will need to have a working Predix space on the cloud to deploy your services and apps to.
 
-The [How To Setup Your Predix Space](https://github.com/PredixDev/minds-machines-sf/blob/master/How%20To%20Setup%20Your%20Predix%20Space.md) guide will quickly walk you through the steps for space setup.
+The [How To Setup Your Predix Space](https://github.com/PredixDev/minds-machines-sf/blob/master/How%20To%20Setup%20Your%20Predix%20Space.md) guide will walk you through a script to quickly setup your space.
 
-Afterwards, you can see how to request and plot time series data from the heatpump timeseries instance by following the [Timeseries Seed App](https://github.com/PredixDev/minds-machines-sf/tree/master/Seed%20Apps/timeseries_seed_app) guide to run a working application.
+You can see how to request and plot time series data from the heatpump timeseries instance by following the [Timeseries Seed App](https://github.com/PredixDev/minds-machines-sf/tree/master/Seed%20Apps/timeseries_seed_app) guide and running a working application.
