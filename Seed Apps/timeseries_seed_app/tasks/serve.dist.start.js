@@ -1,35 +1,19 @@
-"use strict";
+'use strict';
 
 // -------------------------------------
-//   Task: Serve
+//   Task: Serve bundled files from /build
 // -------------------------------------
-const nodemon = require("gulp-nodemon");
-const util = require("gulp-util");
+const nodemon = require('gulp-nodemon');
 
-module.exports = function () {
-    return function () {
-        let nodeEnv;
-
-        if (util.env.dev || util.env.development) {
-            nodeEnv = "development";
-
-        } else if (util.env.int || util.env.integration) {
-            nodeEnv = "integration";
-
-        } else {
-            nodeEnv = "development";
-            console.log("No local environment option, defaulting to " + nodeEnv);
-        }
-
-        nodemon({
-            script: "server/app.js",
-            env: {
-                "base-dir": "/../dist/public",
-                node_env: nodeEnv // eslint-disable-line camelcase
-            }
-        })
-            .on("restart", function () {
-                console.log("app.js restarted");
-            });
-    };
+module.exports = function() {
+  return function() {
+    nodemon({
+        script: 'server/app.js',
+        ignore: ['*'],
+        env: { 'base-dir' : '/../build/es5-basic/public'}
+      })
+      .on('restart', function() {
+        console.log('app.js restarted');
+      });
+  };
 };

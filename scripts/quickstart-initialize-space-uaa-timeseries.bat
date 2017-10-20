@@ -170,7 +170,3 @@ ECHO Running the !CURRENTDIR!\%SHELL_SCRIPT_NAME% script using Git-Bash
 cd !CURRENTDIR!
 ECHO.
 "%PROGRAMFILES%\Git\bin\bash" --login -i -- "!CURRENTDIR!\%SHELL_SCRIPT_NAME%" -b !BRANCH! --skip-setup !QUICKSTART_ARGS!
-
-cf cups MMSanFrancisco_timeseries_loadData -p '{"query":{"uri":"https://time-series-store-predix.run.aws-usw02-pr.ice.predix.io/v1/datapoints","zone-http-header-name":"Predix-Zone-Id","zone-http-header-value":"2dc1efc3-10d3-4262-8f0d-6a990160aed3"}}'
-cf cups MMSanFrancisco_timeseries_heatPump -p '{"query":{"uri":"https://time-series-store-predix.run.aws-usw02-pr.ice.predix.io/v1/datapoints","zone-http-header-name":"Predix-Zone-Id","zone-http-header-value":"d23057a0-0cd3-4f50-ae72-918883641e98"}}'
-cf cups MMSanFrancisco_uaa_admin -p '{"uri":"https://0f074596-79e5-4a1d-8900-707be1c73815.predix-uaa.run.aws-usw02-pr.ice.predix.io"}'
