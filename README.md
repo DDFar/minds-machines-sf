@@ -59,4 +59,4 @@ Before starting the challenges, you will need to have a working Predix space on 
 
 The [How To Setup Your Predix Space](https://github.com/PredixDev/minds-machines-sf/blob/master/How%20To%20Setup%20Your%20Predix%20Space.md) guide will walk you through a script to quickly setup your space.
 
-You can see how to request and plot time series data from the heatpump timeseries instance by following the [Timeseries Seed App](https://github.com/PredixDev/minds-machines-sf/tree/master/Seed%20Apps/timeseries_seed_app) guide and running a working application.
+We provided an example Time Series seed app to show how you can request and plot time series data. The seed app uses Heatpump data from the Electrification Challenge and can be run by following the [Timeseries Seed App](https://github.com/PredixDev/minds-machines-sf/tree/master/Seed%20Apps/timeseries_seed_app) guide.
