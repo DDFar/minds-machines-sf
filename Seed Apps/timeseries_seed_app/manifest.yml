@@ -1,6 +1,6 @@
 ---
 applications:
-  # TODO: Replace with a unique name (eg: MMSanFran-Team1-ui)
+  # TODO: Replace with a unique team name (eg: MMSanFranFtw)
   - name: MMSanFrancisco-ui
     memory: 512M
     buildpack: nodejs_buildpack
@@ -8,13 +8,13 @@ applications:
     path: dist
 
 services:
- # - <your-uaa-instance-name>
- # - <your-timeseries-instance-name>
+ - mmsanfranciscoteam-time-series
+ - mmsanfranciscoteam-uaa
  - MMSanFrancisco_uaa_admin
  - MMSanFrancisco_timeseries_heatPump
  - MMSanFrancisco_timeseries_loadData
 
 env:
     node_env: cloud
-    clientId: timeseries_client_readonly
+    clientId: app_client_id
     clientSecret: secret

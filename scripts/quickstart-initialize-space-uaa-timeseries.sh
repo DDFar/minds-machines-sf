@@ -109,7 +109,7 @@ getPredixScripts
 getCurrentRepo
 
 echo "quickstart_args=$QUICKSTART_ARGS"
-source $PREDIX_SCRIPTS/bash/quickstart.sh $QUICKSTART_ARGS
+source $PREDIX_SCRIPTS/bash/quickstart.sh $QUICKSTART_ARGS -i "MMSanFranciscoTeam"
 
 # # Source file_utils to modify manifest.yml for timeseries_seed_app
 # source $PREDIX_SCRIPTS/bash/scripts/files_helper_funcs.sh
