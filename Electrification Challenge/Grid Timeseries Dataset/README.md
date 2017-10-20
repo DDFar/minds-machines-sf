@@ -1,4 +1,4 @@
-# Minds and Machines Europe Hackathon 2017
+# Minds and Machines SF Hackathon 2017
 # Electrification Challenge - Grid Timeseries Dataset
 
 ## Who is ESB?
