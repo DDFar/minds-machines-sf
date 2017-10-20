@@ -16,10 +16,18 @@ Digital tools applied to existing power plants are already driving efficiencies 
 
 Example solutions include renewable energy generation siting, electric vehicle charger siting, renewable energy integration, asset performance management and field services management, electricity distribution optimization, measuring air quality to provide transparency to drive emissions reductions, maximizing efficiency and output of energy generation systems to do more with less fuel.
 
+## How do I get started?
+Before starting the challenges, you will need to have a working Predix space on the cloud to deploy your services and apps to.
 
-## Repository Overview
+The [How To Setup Your Predix Space](https://github.com/PredixDev/minds-machines-sf/blob/master/How%20To%20Setup%20Your%20Predix%20Space.md) guide will walk you through a script to quickly setup your space.
 
-### Electrification Challenge
+We provided an example Time Series seed app to show how you can request and plot time series data. The seed app uses Heatpump data from the Electrification Challenge and can be run by following the [Timeseries Seed App](https://github.com/PredixDev/minds-machines-sf/tree/master/Seed%20Apps/timeseries_seed_app) guide.
+
+## What's in this Repository?
+
+This repository contains a number of resources that may help you get started. You are **not** required to use any of these, but may find them to be useful. 
+
+### [Electrification Challenge](https://github.com/PredixDev/minds-machines-sf/tree/master/Electrification%20Challenge)
 *Data Presented by EURELECTRIC, EHPA, ESB and Fraunhofer*
 
 Electric vehicles, distributed renewable energy, and electric building heating can drive decarbonization and economic value.  The grid needs to keep up!  Innovate solutions for electrification, and evaluate decarbonization impact. This challenge deals with: Renewable energy resource siting; electric heating & conversion to heat pumps analysis; EV charger siting; renewable energy integration.
@@ -29,9 +37,9 @@ There are two real datasets in separate folders for your use.
 - The [Grid Timeseries Dataset](https://github.com/PredixDev/minds-machines-sf/tree/master/Electrification%20Challenge/Grid%20Timeseries%20Dataset) for load forecasting & temperature correction on distribution circuits
 - The [Heatpump Timeseries Dataset](https://github.com/PredixDev/minds-machines-sf/tree/master/Electrification%20Challenge/Heatpump%20Timeseries%20Dataset) for electric heating & conversion to heat pumps
 
-You can find detailed information about each dataset inside its dedicated folder under "electfication challenge"
+You can find detailed information about each dataset inside its dedicated folder under [Electrification Challenge](https://github.com/PredixDev/minds-machines-sf/tree/master/Electrification%20Challenge)
 
-### Current by GE, CityIQ APIs
+### [Current by GE, CityIQ APIs](https://github.com/PredixDev/minds-machines-sf/tree/master/CityIQ)
 
 You can find detailed information about each dataset inside its dedicated folder under "CityIQ"
 
@@ -43,7 +51,7 @@ You can find detailed information about each dataset inside its dedicated folder
 
 The [CityIQ APIs](https://developer.currentbyge.com/cityiq) are available for your application.
 
-### Intel Dev Kit
+### [Intel Dev Kit](https://github.com/PredixDev/minds-machines-sf/tree/master/Intel%20Dev%20Kit)
 
 *Presented by Intel*
 
@@ -51,12 +59,7 @@ Your mission is to address one of the problems related to sustainability. To boo
 
 You can find detailed information in the [Intel Dev Kit](https://github.com/PredixDev/minds-machines-sf/tree/master/Intel%20Dev%20Kit) folder in this repo.
 
-### Seed Apps
+### [Seed Apps](https://github.com/PredixDev/minds-machines-sf/tree/master/Seed%20Apps)
 Contains a starter application preconfigured to access the challenge data.
 
-## How do I get started?
-Before starting the challenges, you will need to have a working Predix space on the cloud to deploy your services and apps to.
 
-The [How To Setup Your Predix Space](https://github.com/PredixDev/minds-machines-sf/blob/master/How%20To%20Setup%20Your%20Predix%20Space.md) guide will walk you through a script to quickly setup your space.
-
-We provided an example Time Series seed app to show how you can request and plot time series data. The seed app uses Heatpump data from the Electrification Challenge and can be run by following the [Timeseries Seed App](https://github.com/PredixDev/minds-machines-sf/tree/master/Seed%20Apps/timeseries_seed_app) guide.
