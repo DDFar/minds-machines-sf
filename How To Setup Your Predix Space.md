@@ -1,30 +1,29 @@
 # How To Setup Your Predix Space
 
-With your Predix account, you have access to your team space in one of these orgs:
-- predixbuilders2
-- predixbuilder3
-- predixbuilder4  
-
-Your team space name is: team# (# is your team number).
-
-In order to help you to quickly start the challenge, we've created a script to deploy your services for you.
-
 ## Getting Started
 
+In order to help you to quickly start the challenge, we've created a script to deploy your services for you.
+First let's create a directory for your project. Clone or download and extract this project in that directory.
 
-## Apps
+```
+bash
+> git clone https://github.com/PredixDev/minds-machines-sf.git
+> cd minds-machines-sf
+```
 
-### MMSanFrancisco-ui
+Run the quickstart script from the project's root directory
+```
+bash
+> ./scripts/quickstart-initialize-space-uaa-timeseries.sh
+```
 
-We deployed a 'MMSanFrancisco-ui' app to show you how to request and plot time series data from the heatpump timeseries instance. Please note that another timeseries instance is available with ESB load & weather data. You just need to bind your app with another timeseries instance to start working with it.
+A prompt will appear asking to install tools required for your Predix environment, enter 'yes' at this point
+```
+Let's start by verifying that you have the required tools installed.
+Should we install the required tools if not already installed? (Cloud Foundry CLI, Git, Node.js, Maven, Predix CLI) > yes
+```
 
-You can give it a try (replace # with your team number):
-- App URL:
-https://mmeurope-ui-team#.run.aws-usw02-pr.ice.predix.io
-- UserID: TEAM_#
-- User Secret: TEAM_#
-
-**The source code of this app can be found in the "Seed app" folder in this GitHub repo.**
+Note: Networking errors may occur if your machine is running behind a proxy. We suggest disabling active proxy settings to resolve such issues
 
 ## SERVICES
 

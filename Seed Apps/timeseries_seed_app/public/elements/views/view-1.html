@@ -21,6 +21,13 @@ import is done in seef-app since it is needed by both views
           }
         </style>
 
+        <!--
+          Note: Load data can insead be pulled by replacing the service-endpoint value as such:
+            service-endpoint="/api/MMSanFrancisco_timeseries_loadData/v1/tags"
+            service-endpoint="/api/predix-timeseries/v1/datapoints" (personal instance in current space)
+
+          Documentation on Timeseries APIs can be found here: https://www.predix.io/api#!/Time_Series
+        -->
         <df-timeseries-ajax-client id="tsTagClient" method="GET"
                                    service-endpoint="/api/MMSanFrancisco_timeseries_heatPump/v1/tags"
                                    raw-ts-data="{{rawTsTagData}}" auto></df-timeseries-ajax-client>

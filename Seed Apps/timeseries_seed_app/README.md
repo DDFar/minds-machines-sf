@@ -1,5 +1,7 @@
 ## Getting Started
 
+This Timeseries UI app is intended to show you how to request and plot time series data from the heatpump timeseries instance. Please note that another timeseries instance is available with ESB load & weather data and the seed-app is already configured to communicate with that instance.
+
 ### Get the source code
 Make a directory for your project. Clone or download and extract this project in that directory.
 
