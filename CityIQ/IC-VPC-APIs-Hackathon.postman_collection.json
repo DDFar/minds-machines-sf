@@ -60,17 +60,19 @@
 			"folders_order": []
 		},
 		{
-			"id": "e5d65532-e9e3-54e2-7603-adbb9a200c20",
+			"id": "100cb6ed-04e2-f6c9-d6f9-1701cea3efdf",
 			"name": "Tokens",
 			"description": "",
 			"order": [
-				"3f9cb70c-d374-0c83-cc87-67b943ee1c00"
+				"056b4126-c795-5f41-28ab-bd97f2422a7e"
 			],
-			"owner": 0
+			"owner": 0,
+			"collectionId": "c9e0a8ac-fceb-a63d-1fcf-9b9bc5607042",
+			"folders_order": []
 		}
 	],
 	"folders_order": [
-		"e5d65532-e9e3-54e2-7603-adbb9a200c20",
+		"100cb6ed-04e2-f6c9-d6f9-1701cea3efdf",
 		"d4ae9e23-10b1-d0f9-1009-efb650fce96a",
 		"6fd72c4e-979d-16ab-1d4c-f9cdc4a621d4",
 		"802ce125-fe65-2f39-444c-499fe0882ed1"
@@ -79,6 +81,69 @@
 	"owner": 0,
 	"public": false,
 	"requests": [
+		{
+			"id": "056b4126-c795-5f41-28ab-bd97f2422a7e",
+			"headers": "Authorization: Basic aWMuc3RhZ2Uuc2ltLmRldmVsb3A6ZGV2\n//Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Basic aWMuc3RhZ2Uuc2ltLmRldmVsb3A6ZGV2",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "{{UAAURL}}?grant_type=client_credentials",
+			"queryParams": [
+				{
+					"key": "grant_type",
+					"value": "client_credentials",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [
+				{
+					"key": "username",
+					"value": "ic.admin",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "admin",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": "var data = JSON.parse(responseBody);\npostman.setEnvironmentVariable(\"client_token\", data.access_token);",
+			"currentHelper": "basicAuth",
+			"helperAttributes": {
+				"id": "basic",
+				"username": "{{client}}",
+				"password": "{{pwd}}",
+				"saveToRequest": true
+			},
+			"time": 1500674663247,
+			"name": "Get client Token",
+			"description": "",
+			"collectionId": "c9e0a8ac-fceb-a63d-1fcf-9b9bc5607042",
+			"responses": [],
+			"folder": "100cb6ed-04e2-f6c9-d6f9-1701cea3efdf",
+			"isFromCollection": true,
+			"collectionRequestId": "3f9cb70c-d374-0c83-cc87-67b943ee1c00"
+		},
 		{
 			"id": "260de547-269f-fe05-a878-f78e9ddb8dec",
 			"headers": "Authorization: Bearer {{client_token}}\nPredix-Zone-Id: {{ps_zone_id}}\n",
@@ -375,67 +440,6 @@
 			"collectionId": "c9e0a8ac-fceb-a63d-1fcf-9b9bc5607042",
 			"responses": [],
 			"folder": "d4ae9e23-10b1-d0f9-1009-efb650fce96a"
-		},
-		{
-			"id": "3f9cb70c-d374-0c83-cc87-67b943ee1c00",
-			"headers": "Authorization: Basic aWMuc3RhZ2Uuc2ltLmRldmVsb3A6ZGV2\n//Content-Type: application/x-www-form-urlencoded\n",
-			"headerData": [
-				{
-					"key": "Authorization",
-					"value": "Basic aWMuc3RhZ2Uuc2ltLmRldmVsb3A6ZGV2",
-					"description": "",
-					"enabled": true
-				},
-				{
-					"key": "Content-Type",
-					"value": "application/x-www-form-urlencoded",
-					"description": "",
-					"enabled": false
-				}
-			],
-			"url": "{{UAAURL}}?grant_type=client_credentials",
-			"queryParams": [
-				{
-					"key": "grant_type",
-					"value": "client_credentials",
-					"equals": true,
-					"description": "",
-					"enabled": true
-				}
-			],
-			"preRequestScript": "",
-			"pathVariables": {},
-			"pathVariableData": [],
-			"method": "GET",
-			"data": [
-				{
-					"key": "username",
-					"value": "ic.admin",
-					"type": "text",
-					"enabled": true
-				},
-				{
-					"key": "password",
-					"value": "admin",
-					"type": "text",
-					"enabled": true
-				}
-			],
-			"dataMode": "urlencoded",
-			"tests": "var data = JSON.parse(responseBody);\npostman.setEnvironmentVariable(\"client_token\", data.access_token);",
-			"currentHelper": "basicAuth",
-			"helperAttributes": {
-				"id": "basic",
-				"username": "{{client}}",
-				"password": "{{pwd}}",
-				"saveToRequest": true
-			},
-			"time": 1500674663247,
-			"name": "Get client Token",
-			"description": "",
-			"collectionId": "c9e0a8ac-fceb-a63d-1fcf-9b9bc5607042",
-			"responses": [],
-			"folder": "e5d65532-e9e3-54e2-7603-adbb9a200c20"
 		},
 		{
 			"id": "449bccf1-0f39-11d6-ae86-a483245bacc1",
@@ -959,7 +963,8 @@
 					"enabled": true
 				}
 			],
-			"url": "{{mediaurl}}/ondemand/locations/{{traffic_asset}}/media?mediaType=IMAGE&timestamp={{startts}}",
+			"url": "{{mediaurl}}/ondemand/locations/{{traffic_loc}}/media?mediaType=IMAGE&timestamp={{startts}}",
+			"folder": "802ce125-fe65-2f39-444c-499fe0882ed1",
 			"queryParams": [
 				{
 					"key": "mediaType",
@@ -985,12 +990,11 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1501614063752,
+			"time": 1508550361126,
 			"name": "(step 1) Get Image mediaOnDemand Location",
 			"description": "",
 			"collectionId": "c9e0a8ac-fceb-a63d-1fcf-9b9bc5607042",
-			"responses": [],
-			"folder": "802ce125-fe65-2f39-444c-499fe0882ed1"
+			"responses": []
 		},
 		{
 			"id": "93bcbda2-3fdd-15a9-2643-d1a9c7750faa",
