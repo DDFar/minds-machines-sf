@@ -41,9 +41,9 @@ Each participating team will receive (while supply lasts):
     - B to A Type USB Cable – 0.5m
 
 
-In addition, 2 lots of 15 sets of alternate sensors will be available on demand:
-1.	First type of set is based upon a slightly modified version of https://wiki.openenergymonitor.org/index.php/EmonTx_Arduino_Shield and can monitor AC voltage and current
-2.	Second type of set is based on the http://www.switchdoc.com/sunairplus-solar-power-controllerdata-collector/ and can be used to monitor 3 set of voltage and current for a small solar panel, a li-po battery and a USB load
+In addition, 2 sets of alternate sensors will be available on demand:
+1.	To extend the capabilities of the Current by GE data set, an Air Quality Sensor can be used to monitor a range of gas concentrations.  More info on the sensor can be found at http://wiki.seeed.cc/Grove-Air_Quality_Sensor_v1.3/  
+2.	Second type of set is based on the http://www.switchdoc.com/sunairplus-solar-power-controllerdata-collector/ and can be used to monitor 3 sets of voltage and current for a small solar panel, a li-po battery and a USB load. This data is published by the sensor device as set of MQTT Topics. 
 
 ## How to access data generated from the Kit?
 
